@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Nikita Kostevich](https://up.htmlacademy.ru/htmlcss/36/user/1966385).
-* Наставник: `Неизвестно`.
+* Наставник: [Вадим Рахманов] (https://htmlacademy.ru/profile/flander).
 
 ---
 
