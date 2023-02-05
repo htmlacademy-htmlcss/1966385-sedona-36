@@ -47,8 +47,7 @@
     <ul class="breadcrumbs">
       <li class="breadcrumbs-items">
         <a class="breadcrumbs-link" href="index.html">
-          <img src="vector/Home.svg" alt="Изображение домика">
-          <span class="breadcrumbs-item-home visually-hidden">Главная</span>
+        <span class="breadcrumbs-item-home visually-hidden">Главная</span>
         </a>
       </li>
       <li class="breadcrumbs-items">Гостиницы</li>
@@ -56,7 +55,7 @@
     </header>
   <section class="catalog-filter">
     <h2 class="visually-hidden">Выбор гостиницы с выбором удобств</h2>
-    <form action=""></form> <-- Доработать -->
+    <form action="catalog-checkbox">
     <ul class="infrastructure-list">
       <li class="ifrastructure-items">
         <input type="checkbox" name="swimmingpool" checked>Бассейн
@@ -84,22 +83,135 @@
       <button class="button" type="reset">Сбросить</button>
     </form>
   </section>
-  <section class=hotels>
-    <h1 class="shotel-results">
+  <section class="hotels">
+    <h1 class="hotel-results">
       <span class="hotel-results-aswer">Найдено гостиниц: 38</span>
     </h1>
     <div class="hotels-list">
-      <a class="hotel-card" href="#">
-        <img class="hotel-card-image" src="img/hotel-1.jpg" alt="Отел с выходом из пещеры, на выходе которого видно звездное небо">
-        <h3 class="hotel-card"></h3>
-      </a>
-      </div>
-      <div class="hotel-list"><
-      <a class=>/div>
+      <p class="hotel-card" href="#">
+        <img class="hotel-card-image" src="images/catalog/hotels-catalog/hotel-1.jpg" width="full" height="full" alt="Отел с выходом из пещеры, на выходе которого видно звездное небо">
+        <h3 class="hotel-card">Amara Resort & Spa</h3>
+        <a class="hotel-card-follow" href="#">Подробнее</a>
+        <form class="favorite">
+        <p class="follow-button"><input type="button" name="В Избранное">В Избранное
+        </p>
+        </form>
+        <div class="rating-area">
+          <input type="radio" id="star-5" name="rating" value="5">
+          <label for="star-5" title="Оценка «5»"></label>
+          <input type="radio" id="star-4" name="rating" value="4">
+          <label for="star-4" title="Оценка «4»"></label>
+          <input type="radio" id="star-3" name="rating" value="3">
+          <label for="star-3" title="Оценка «3»"></label>
+          <input type="radio" id="star-2" name="rating" value="2">
+          <label for="star-2" title="Оценка «2»"></label>
+          <input type="radio" id="star-1" name="rating" value="1">
+          <label for="star-1" title="Оценка «1»"></label>
+        </div>
+        </p>
+        <p class="rating">Рейтинг: 8,5</p>
+    </div>
+    <div class="hotels-list">
+      <p class="hotel-card" href="#">
+        <img class="hotel-card-image" src="images/catalog/hotels-catalog/hotel-2.jpg" width="full" height="full" alt="Отел с выходом из пещеры, на выходе которого видно звездное небо">
+        <h3 class="hotel-card">Villas at Poco Diablo</h3>
+        <a class="hotel-card-follow" href="#">Подробнее</a>
+        <form class="favorite">
+        <p class="follow-button"><input type="button" name="В Избранное">В Избранное
+        </p>
+        </form>
+        <div class="rating-area">
+          <input type="radio" id="star-5" name="rating" value="5">
+          <label for="star-5" title="Оценка «5»"></label>
+          <input type="radio" id="star-4" name="rating" value="4">
+          <label for="star-4" title="Оценка «4»"></label>
+          <input type="radio" id="star-3" name="rating" value="3">
+          <label for="star-3" title="Оценка «3»"></label>
+          <input type="radio" id="star-2" name="rating" value="2">
+          <label for="star-2" title="Оценка «2»"></label>
+          <input type="radio" id="star-1" name="rating" value="1">
+          <label for="star-1" title="Оценка «1»"></label>
+        </div>
+        </p>
+        <p class="rating">Рейтинг: 9,2</p>
+    </div>
+    <div class="hotels-list">
+      <p class="hotel-card" href="#">
+        <img class="hotel-card-image" src="images/catalog/hotels-catalog/hotel-3.jpg" width="full" height="full" alt="Отел с выходом из пещеры, на выходе которого видно звездное небо">
+        <h3 class="hotel-card">Desert Quail Inn</h3>
+        <a class="hotel-card-follow" href="#">Подробнее</a>
+        <form class="favorite">
+        <p class="follow-button"><input type="button" name="В Избранное">В Избранное
+        </p>
+        </form>
+        <div class="rating-area">
+          <input type="radio" id="star-5" name="rating" value="5">
+          <label for="star-5" title="Оценка «5»"></label>
+          <input type="radio" id="star-4" name="rating" value="4">
+          <label for="star-4" title="Оценка «4»"></label>
+          <input type="radio" id="star-3" name="rating" value="3">
+          <label for="star-3" title="Оценка «3»"></label>
+          <input type="radio" id="star-2" name="rating" value="2">
+          <label for="star-2" title="Оценка «2»"></label>
+          <input type="radio" id="star-1" name="rating" value="1">
+          <label for="star-1" title="Оценка «1»"></label>
+        </div>
+        </p>
+        <p class="rating">Рейтинг: 8,5</p>
+    </div>
+    <div class="hotels-list">
+      <p class="hotel-card" href="#">
+        <img class="hotel-card-image" src="images/catalog/hotels-catalog/hotel-4.jpg" width="full" height="full" alt="Отел с выходом из пещеры, на выходе которого видно звездное небо">
+        <h3 class="hotel-card">HreenTree Inn</h3>
+        <a class="hotel-card-follow" href="#">Подробнее</a>
+        <form class="favorite">
+        <p class="follow-button"><input type="button" name="В Избранное">В Избранное
+        </p>
+        </form>
+        <div class="rating-area">
+          <input type="radio" id="star-5" name="rating" value="5">
+          <label for="star-5" title="Оценка «5»"></label>
+          <input type="radio" id="star-4" name="rating" value="4">
+          <label for="star-4" title="Оценка «4»"></label>
+          <input type="radio" id="star-3" name="rating" value="3">
+          <label for="star-3" title="Оценка «3»"></label>
+          <input type="radio" id="star-2" name="rating" value="2">
+          <label for="star-2" title="Оценка «2»"></label>
+          <input type="radio" id="star-1" name="rating" value="1">
+          <label for="star-1" title="Оценка «1»"></label>
+        </div>
+        </p>
+        <p class="rating">Рейтинг: 8,5</p>
     </div>
   </section>
+  <div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">7</a>
+    <a href="#">8</a>
+    <a href="#">9</a>
+    <a href="#">10</a>
+    <a href="#">&raquo;</a>
+  </div>
+  <section class="follow">
+    <h2 class="follow">Подпишителсь на рассылку</h2>
+    <p>Только полезные информации и накого спама, честное бойскатское!</p>
+    <form class="email" action="https://echo.htmlacademy.ru/" method="post"></form>
+    <p class="folow-email">
+      <label for="appointment-name">
+        Ваш e-mail
+      </label>
+        <input class="field" type="email" id="appointment-name" name="follow-name" c>
+        <button class="follow">Подписаться</button>
+      </p>
+    </p>
+  </section>
 </main>
-
   <footer class="footer-contakts">
     <ul class="social-list">
       <li class="social-items">
