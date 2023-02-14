@@ -58,36 +58,40 @@
     </header>
   <section class="catalog-filter">
     <h2 class="visually-hidden">Выбор гостиницы с выбором удобств</h2>
-    <form class="catalog-filters" method="get" action="">
+    <form class="catalog-filters" method="get" action="echo.htmlacademy.ru">
       <ul class="infrastructure-list">
         <li class="ifrastructure-items">
           <input type="checkbox" name="swimmingpool" id="infrastructure-items" checked>
-          <label class="filter-items" id="swimmingpool">Бассейн</label>
+          <label class="filter-items" id="swimmingpool-filter">Бассейн</label>
         </li>
         <li class="ifrastructure-items">
           <input type="checkbox" name="parking" id="infrastructure-items" checked>
-          <label class="filter-items" id="parki">Парковка</label>
+          <label class="filter-items" id="parking-filter">Парковка</label>
         </li>
         <li class="ifrastructure-items">
             <input type="checkbox" name="wifi" id="infrastructure-items">
-            <label class="filter-items" id="wifi">Wi-Fi</label>
+            <label class="filter-items" id="wifi-filter">Wi-Fi</label>
         </li>
       </ul>
       <ul class="housing-type-list">
         <li class="housing-type-items">
           <input type="checkbox" name="hotel" id="infrastructure-items" checked>
-          <label class="filter-items" id="hotel">Гостиница</label>
+          <label class="filter-items" id="hotel-filter">Гостиница</label>
         </li>
         <li class="housing-type-items">
           <input class="catalog-housing-list" type="checkbox" name="motel" id="infrastructure-items">
-          <label class="filter-items" id="motel">Мотель</label>
+          <label class="filter-items" id="motel-filter">Мотель</label>
         </li>
         <li class="housing-type-items">
           <input class="catalog-housing-list" type="checkbox" id="infrastructure-items" name="apportaments">
-          <label class="filter-items" id="apportaments">Апортаменты</label>
+          <label class="filter-items" id="apportaments-filter">Апортаменты</label>
         </li>
-    <button class="button" type="submit">Применить</button>
-    <button class="button" type="reset">Сбросить</button>
+        <li>
+          <button class="button" type="submit">Применить</button>
+        </li>
+        <li>
+          <button class="button" type="reset">Сбросить</button>
+        </li>
     </ul>
   </form>
   </section>
@@ -142,8 +146,7 @@
         <div class="rating-area">
           <span class="rating-stars visually-hidden">Три звезды</span>
         </div>
-          <p class="rating">Рейтинг: 6,9</p>
-      </div>
+      <p class="rating">Рейтинг: 6,9</p>
       <div class="hotel-card">
         <img class="hotel-card-image" src="images/catalog/hotels-catalog/hotel-4.jpg" width="300" height="212" alt="Вид на скалу на фоне звездного неба">
         <h3 class="hotel-card">HreenTree Inn</h3>
@@ -185,7 +188,7 @@
     <form class="email" action="https://echo.htmlacademy.ru/" method="post">
       <p class="folow-email">
         <label for="appointment-name">Ваш e-mail</label>
-        <input class="field" type="email" id="appointment-name" name="follow-name">
+        <input class="field" type="email" id="email" name="follow-name">
       </p>
       <button class="follow-button" type="submit">Подписаться</button>
     </form>
